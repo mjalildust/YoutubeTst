@@ -1,6 +1,6 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    padding-top: 50px;
+    /*padding-top: 50px;*/
     padding-bottom: 20px;
 }
 
@@ -29,3 +29,157 @@ textarea {
         padding: 0;
     }
 }
+
+
+
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+
+.detailBox {
+    width: 520px;
+    border: 1px solid #bbb;
+    margin: 50px;
+}
+
+.titleBox {
+    background-color: #fdfdfd;
+    padding: 10px;
+}
+
+    .titleBox label {
+        color: #444;
+        margin: 0;
+        display: inline-block;
+    }
+
+.commentBox {
+    padding: 10px;
+    border-top: 1px dotted #bbb;
+}
+
+    /*.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    }*/
+
+    /*.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+    }*/
+
+.actionBox .form-group * {
+    width: 100%;
+}
+
+.taskDescription {
+    margin-top: 10px 0;
+}
+
+.commentList {
+    padding: 0;
+    list-style: none;
+    max-height: 200px;
+    overflow: auto;
+}
+
+    .commentList li {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+        .commentList li > div {
+            display: table-cell;
+        }
+
+.commenterImage {
+    width: 30px;
+    margin-right: 5px;
+    height: 100%;
+    float: left;
+}
+
+    .commenterImage img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+.commentText p {
+    margin: 0;
+}
+
+.sub-text {
+    color: #aaa;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+.actionBox {
+    border-top: 1px dotted #bbb;
+    padding: 10px;
+}
+
+
+#tv_container {
+    background: url('tv.png') no-repeat top left transparent;
+    width: 700px; /* Adjust TV image width */
+    height: 500px; /* Adjust TV image height */
+    position: relative;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+    #tv_container video {
+        position: absolute;
+        top: 5px; /* Adjust top position */
+        left: 5px; /* Adjust left position */
+        z-index: 5;
+    }
+
+.col-sm-3 {
+    background-color: #ddd;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    padding-left: 23px;
+    padding-top: 30px;
+    padding-bottom:50px;
+    height: 100%;
+}
+
+.modal-title {
+    color: dimgrey;
+}
+
+.dropdown-item {
+    color: dimgrey;
+}
+
+.navbar-brand {
+    color: dimgrey;
+}
+
+#ShowName {
+    color: dimgrey;
+    padding-left: 5px;
+    font-family: "Times New Roman, Times, serif";
+}
+
+.nav {
+    margin-top: 6px;
+    margin-right: 4px;
+    margin-left: 3px;
+}
+
+.dropdown-menu {
+    text-align: center;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #ddd;
+    background-image: linear-gradient(white, #ddd);
+}
+
+#vl {
+    width: 250px;
+    cursor: pointer;
+}
+#btn {
+    
+    border: 2px solid #ddd;
+}
+
